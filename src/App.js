@@ -1,13 +1,10 @@
 import React from 'react';
-import Button from './Button'
+import Counter from './components/Counter';
 
 const App = () => {
-    return (
-        <div>
-            <h1>App</h1>
-            <Button title='post'/>
-            <Button title='edit'/>
-            <Button title='delete'/>
+    return(
+        <div className='ui container' style={{marginTop:'20px'}}>
+            <Counter />
         </div>
     );
 };
