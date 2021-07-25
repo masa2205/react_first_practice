@@ -5,9 +5,9 @@ const App = () => {
     return (
         <div>
             <h1>App</h1>
-            <Button />
-            <Button />
-            <Button />
+            <Button title='post'/>
+            <Button title='edit'/>
+            <Button title='delete'/>
         </div>
     );
 };
