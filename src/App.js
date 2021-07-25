@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Button from './Button'
 
-function App() {
-  return (
-    <div className="App">
-      <h1>HelloWorld</h1>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <h1>App</h1>
+            <Button />
+            <Button />
+            <Button />
+        </div>
+    );
+};
 
 export default App;
